@@ -1,12 +1,12 @@
-## First GO Project API CRUD
+# First GO Project API CRUD
 
-# GET ALL PRODUCT 
-```bash
+## GET ALL PRODUCT 
+```url
 GET http://127.0.0.1:9999/api/products
 ```
 
-# CREATE NEW PRODUCT 
-```bash
+## CREATE NEW PRODUCT 
+```url
 http://127.0.0.1:9999/api/products
 ```
 JSON DATA
@@ -18,12 +18,12 @@ JSON DATA
 	"deskripsi" : "product_description"
 }
 ```
-# FIND PRODUCT BY ID
-```bash
+## FIND PRODUCT BY ID
+```url
 http://127.0.0.1:9999/api/products/2
 ```
-# UPDATE PRODUCT
-```bash
+## UPDATE PRODUCT
+```url
 http://127.0.0.1:9999/api/products/{id}
 ```
 JSON DATA
@@ -35,7 +35,7 @@ JSON DATA
 	"deskripsi" : "product_description"
 }
 ```
-# DELETE PRODUCT BY ID
+## DELETE PRODUCT BY ID
 ```url
 http://127.0.0.1:9999/api/products/2
 ```
